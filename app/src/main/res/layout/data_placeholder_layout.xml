@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="2"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/card_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/placeholder_image"
+        android:layout_height="@dimen/movie_cover_height"
+        android:layout_gravity="start|top"
+        android:background="@color/background" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnail"
+        android:layout_gravity="start|top"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/placeholder_width"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/card_margin"
+            android:background="@color/background" />
+        <View
+            android:layout_width="@dimen/layout_margin_left"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/card_margin"
+            android:background="@color/background" />
+    </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="@dimen/card_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/thumbnail_two"
+        android:layout_width="@dimen/placeholder_image"
+        android:layout_height="@dimen/movie_cover_height"
+        android:layout_gravity="end|top"
+        android:background="@color/background" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnail_two"
+        android:layout_gravity="start|top"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/placeholder_width"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/card_margin"
+            android:background="@color/background" />
+        <View
+            android:layout_width="@dimen/layout_margin_left"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/card_margin"
+            android:background="@color/background" />
+    </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="@dimen/card_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/thumbnail_three"
+            android:layout_width="@dimen/placeholder_image"
+            android:layout_height="@dimen/movie_cover_height"
+            android:layout_gravity="end|top"
+            android:background="@color/background" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thumbnail_three"
+            android:layout_gravity="start|top"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="@dimen/placeholder_width"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginTop="@dimen/card_margin"
+                android:background="@color/background" />
+            <View
+                android:layout_width="@dimen/layout_margin_left"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginTop="@dimen/card_margin"
+                android:background="@color/background" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="@dimen/card_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/thumbnail_four"
+        android:layout_width="@dimen/placeholder_image"
+        android:layout_height="@dimen/movie_cover_height"
+        android:layout_gravity="end|top"
+        android:background="@color/background" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnail_four"
+        android:layout_gravity="start|top"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/placeholder_width"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/card_margin"
+            android:background="@color/background" />
+        <View
+            android:layout_width="@dimen/layout_margin_left"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginTop="@dimen/card_margin"
+            android:background="@color/background" />
+    </LinearLayout>
+    </RelativeLayout>
+</GridLayout>
